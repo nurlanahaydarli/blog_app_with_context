@@ -1,0 +1,51 @@
+.center_loading{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.bg-img h1 {
+    font-size: 80px;
+}
+
+.bg-img h3 {
+    font-size: 80px;
+}
+
+.link {
+    color: #fff;
+    padding: 10px 20px;
+    background: #EE9403;
+    margin: 20px 0;
+    display: inline-block;
+    text-decoration:none;
+}
+
+.link:hover{
+    color:#fff;
+    background-color:#E76B08;
+}
+.center_el{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
