@@ -14,7 +14,7 @@ const BlogCard=({title,cover_url,description,id,onReadMore,category})=>{
                         borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                        <Heading size='sm' color={"teal"}>Category: {blogCategory.title}</Heading>
+                        <Heading size='sm' color={"teal"}>Category: {blogCategory?.title}</Heading>
                         <Heading size='md'>{title}</Heading>
                         <Text>
                             {ShortText(description,120)}
